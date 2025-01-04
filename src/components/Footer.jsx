@@ -4,7 +4,6 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 const Footer = () => (
   <footer className="bg-gray-900 text-white py-10">
     <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center px-6 text-center">
-      {/* Phone Number */}
       <div className="flex flex-col items-center">
         <div className="flex items-center bg-gray-700 p-4 rounded-lg w-full justify-center md:justify-start">
           <FaPhoneAlt className="text-blue-400 text-2xl mr-4" />
@@ -15,7 +14,6 @@ const Footer = () => (
         </div>
       </div>
 
-      {/* Email Address */}
       <div className="flex flex-col items-center">
         <div className="flex items-center bg-gray-700 p-4 rounded-lg w-full justify-center md:justify-start">
           <FaEnvelope className="text-blue-400 text-2xl mr-4" />
@@ -26,7 +24,6 @@ const Footer = () => (
         </div>
       </div>
 
-      {/* Office Location */}
       <div className="flex flex-col items-center">
         <div className="flex items-center bg-gray-700 p-4 rounded-lg w-full justify-center md:justify-start">
           <FaMapMarkerAlt className="text-blue-400 text-2xl mr-4" />
@@ -38,11 +35,10 @@ const Footer = () => (
       </div>
     </div>
 
-    {/* Logo and Description */}
     <div className="flex justify-center items-center mt-10 md:mt-0">
       <div className="flex items-center space-x-8 p-6"> 
         <Image
-          src="/assets/logo.png" // Replace with your actual logo path
+          src="/assets/logo.png"
           alt="Elbrit Logo"
           width={150}
           height={50}
@@ -54,7 +50,7 @@ const Footer = () => (
       </div>
     </div>
 
-    {/* Footer Bottom */}
+  
     <div className="text-center mt-10 text-sm text-gray-400 border-t border-gray-800 pt-4">
       © Elbrit Life Sciences Private Limited. C20, BKC, G Block, Mumbai 400051
     </div>

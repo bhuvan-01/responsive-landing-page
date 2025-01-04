@@ -6,49 +6,49 @@ const BlogSection = () => {
       id: 1,
       title: "The Covid-19 Epidemic in 2022 Is Back",
       date: "20 APR",
-      image: "/assets/blog1.png", // Replace with actual image paths
+      image: "/assets/blog1.png",
     },
     {
       id: 2,
       title: "The Covid-19 Epidemic in 2023 Is Back",
       date: "20 APR",
-      image: "/assets/blog1.png", // Replace with actual image paths
+      image: "/assets/blog1.png", 
     },
     {
       id: 3,
       title: "Hac hendrerit mus nons semper suspendisse",
       date: "17 MAR",
-      image: "/assets/blog1.png", // Replace with actual image paths
+      image: "/assets/blog1.png", 
     },
     {
       id: 4,
       title: "The Covid-19 Epidemic in 2023 Is Back",
       date: "20 APR",
-      image: "/assets/blog1.png", // Replace with actual image paths
+      image: "/assets/blog1.png", 
     },
     {
       id: 5,
       title: "The Covid-19 Epidemic in 2022 Is Back",
       date: "20 APR",
-      image: "/assets/blog2.png", // Replace with actual image paths
+      image: "/assets/blog2.png", 
     },
     {
       id: 6,
       title: "The Covid-19 Epidemic in 2023 Is Back",
       date: "20 APR",
-      image: "/assets/blog2.png", // Replace with actual image paths
+      image: "/assets/blog2.png", 
     },
     {
       id: 6,
       title: "The Covid-19 Epidemic in 2023 Is Back",
       date: "20 APR",
-      image: "/assets/blog2.png", // Replace with actual image paths
+      image: "/assets/blog2.png",
     },
     {
       id: 6,
       title: "The Covid-19 Epidemic in 2023 Is Back",
       date: "20 APR",
-      image: "/assets/blog2.png", // Replace with actual image paths
+      image: "/assets/blog2.png", 
     }
   ];
 
@@ -65,7 +65,6 @@ const BlogSection = () => {
                 idx === 2 ? "md:row-span-1" : ""
               }`}
             >
-              {/* Blog Image */}
               <Image
                 src={blog.image}
                 alt={blog.title}
@@ -73,9 +72,7 @@ const BlogSection = () => {
                 height={300}
                 className="object-cover w-full h-full"
               />
-              {/* Overlay */}
               <div className="absolute inset-0 bg-black bg-opacity-30"></div>
-              {/* Blog Details */}
               <div className="absolute bottom-4 left-4 text-white">
                 <span className="bg-blue-500 text-xs px-2 py-1 rounded">{blog.date}</span>
                 <h3 className="text-lg font-semibold mt-2">{blog.title}</h3>
