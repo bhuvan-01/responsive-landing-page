@@ -104,7 +104,7 @@ const HeroSection = () => (
                 description: "We ensure that all products are safe and within their use-by date.",
               },
               {
-                icon: "/assets/leavpng",
+                icon: "/assets/leaves.png",
                 title: "GMO Free",
                 description: "Natural, no modified products and derivatives for those who need it.",
               },
